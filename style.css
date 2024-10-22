@@ -6,8 +6,9 @@ body {
     background-repeat: no-repeat; /* Evita que a imagem se repita */
     height: 100vh; /* Define a altura para 100% da tela */
     margin: 0;
-    padding: 0;
-}
+    padding: 0; 
+} 
+
 
 span {
     font-family: "Lato";
@@ -43,7 +44,10 @@ header {
     text-align: center; /* Opcional: centraliza o texto dentro do container */
 }
 
-.av-orbit {
-
-    align-items: center;
+.container2 {
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 50vh; /* Define a altura da container como 100% da altura da viewport */
+    text-align: center; /* Opcional: centraliza o texto dentro do container */
 }
